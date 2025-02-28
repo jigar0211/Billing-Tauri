@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fontawesome-webfont.eot?v=4.7.0');
+  src: url('fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), 
+       url('fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
+       url('fontawesome-webfont.woff?v=4.7.0') format('woff'), 
+       url('fontawesome-webfont.ttf?v=4.7.0') format('truetype'), 
+       url('fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RopaSansProMedium';
+  src: url('RopaSansProMedium.eot');
+  src: url('RopaSansProMedium.eot') format('embedded-opentype'),
+       url('RopaSansProMedium.woff2') format('woff2'),
+       url('RopaSansProMedium.woff') format('woff'),
+       url('RopaSansProMedium.ttf') format('truetype'),
+       url('RopaSansProMedium.svg#RopaSansProMedium') format('svg');
+}
+@font-face {
+  font-family: 'RopaSansProThinItalic';
+  src: url('RopaSansProThinItalic.eot');
+  src: url('RopaSansProThinItalic.eot') format('embedded-opentype'),
+       url('RopaSansProThinItalic.woff2') format('woff2'),
+       url('RopaSansProThinItalic.woff') format('woff'),
+       url('RopaSansProThinItalic.ttf') format('truetype'),
+       url('RopaSansProThinItalic.svg#RopaSansProThinItalic') format('svg');
+}
+@font-face {
+  font-family: 'RopaSansProThin';
+  src: url('RopaSansProThin.eot');
+  src: url('RopaSansProThin.eot') format('embedded-opentype'),
+       url('RopaSansProThin.woff2') format('woff2'),
+       url('RopaSansProThin.woff') format('woff'),
+       url('RopaSansProThin.ttf') format('truetype'),
+       url('RopaSansProThin.svg#RopaSansProThin') format('svg');
+}
+@font-face {
+  font-family: 'RopaSansProExtraLightItalic';
+  src: url('RopaSansProExtraLightItalic.eot');
+  src: url('RopaSansProExtraLightItalic.eot') format('embedded-opentype'),
+       url('RopaSansProExtraLightItalic.woff2') format('woff2'),
+       url('RopaSansProExtraLightItalic.woff') format('woff'),
+       url('RopaSansProExtraLightItalic.ttf') format('truetype'),
+       url('RopaSansProExtraLightItalic.svg#RopaSansProExtraLightItalic') format('svg');
+}
+@font-face {
+  font-family: 'RopaSansProExtraLight';
+  src: url('RopaSansProExtraLight.eot');
+  src: url('RopaSansProExtraLight.eot') format('embedded-opentype'),
+       url('RopaSansProExtraLight.woff2') format('woff2'),
+       url('RopaSansProExtraLight.woff') format('woff'),
+       url('RopaSansProExtraLight.ttf') format('truetype'),
+       url('RopaSansProExtraLight.svg#RopaSansProExtraLight') format('svg');
+}
+@font-face {
+  font-family: 'RopaSansProLightItalic';
+  src: url('RopaSansProLightItalic.eot');
+  src: url('RopaSansProLightItalic.eot') format('embedded-opentype'),
+       url('RopaSansProLightItalic.woff2') format('woff2'),
+       url('RopaSansProLightItalic.woff') format('woff'),
+       url('RopaSansProLightItalic.ttf') format('truetype'),
+       url('RopaSansProLightItalic.svg#RopaSansProLightItalic') format('svg');
+}
+@font-face {
+  font-family: 'RopaSansProLight';
+  src: url('RopaSansProLight.eot');
+  src: url('RopaSansProLight.eot') format('embedded-opentype'),
+       url('RopaSansProLight.woff2') format('woff2'),
+       url('RopaSansProLight.woff') format('woff'),
+       url('RopaSansProLight.ttf') format('truetype'),
+       url('RopaSansProLight.svg#RopaSansProLight') format('svg');
+}
+@font-face {
+  font-family: 'RopaSansProRegular';
+  src: url('RopaSansProRegular.eot');
+  src: url('RopaSansProRegular.eot') format('embedded-opentype'),
+       url('RopaSansProRegular.woff2') format('woff2'),
+       url('RopaSansProRegular.woff') format('woff'),
+       url('RopaSansProRegular.ttf') format('truetype'),
+       url('RopaSansProRegular.svg#RopaSansProRegular') format('svg');
+}
+@font-face {
+  font-family: 'RopaSansProBold';
+  src: url('RopaSansProBold.eot');
+  src: url('RopaSansProBold.eot') format('embedded-opentype'),
+       url('RopaSansProBold.woff2') format('woff2'),
+       url('RopaSansProBold.woff') format('woff'),
+       url('RopaSansProBold.ttf') format('truetype'),
+       url('RopaSansProBold.svg#RopaSansProBold') format('svg');
+}
