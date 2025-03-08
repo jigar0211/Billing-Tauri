@@ -8,11 +8,6 @@ const MainContent = ({ children }) => {
     useEffect(() => {
         loadVendorFiles();
     }, []);
-    // useEffect(() => {
-    //     invoke("start_mongodb")
-    //         .then((message) => console.log(message))
-    //         .catch((error) => console.error("Error starting MongoDB:", error));
-    // }, []);
 
     return (
         <div className="page">
@@ -23,9 +18,9 @@ const MainContent = ({ children }) => {
                 <div className="header collapse d-lg-flex p-0" id="headerMenuCollapse">
                     <Navbar />
                 </div>
-                <div className="my-3 my-md-5">
+                <div className="my-2 my-md-2">
                     <div className="container-fluid">
-                        {children} {/* This will render dynamic content */}
+                        {children}
                     </div>
                 </div>
                 <footer className="footer fixed-bottom">

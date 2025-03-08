@@ -16,14 +16,9 @@ export const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link" data-toggle="dropdown">
-                <i className="fa fa-gear"></i> Interface
-              </a>
-              <div className="dropdown-menu dropdown-menu-arrow">
-                <a href="#" className="dropdown-item">Cards design</a>
-                <a href="#" className="dropdown-item">Charts</a>
-                <a href="#" className="dropdown-item">Pricing cards</a>
-              </div>
+              <NavLink to="/billing" className="nav-link" data-toggle="dropdown">
+                <i className="fa fa-file-text"></i> Billing
+              </NavLink>
             </li>
             <li className="nav-item dropdown">
               <a href="#" className="nav-link" data-toggle="dropdown">

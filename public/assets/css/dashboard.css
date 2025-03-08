@@ -18256,3 +18256,72 @@ svg {
 .fe-zoom-out:before {
   content: "\ea06";
 }
+
+/* Position toast at the upper right */
+.toast-container-top-right {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1050;
+  /* Ensure it appears above other elements */
+}
+
+/* Toast Styling */
+.custom-toast {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: black;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+/* Error (Danger) Toast */
+.error-toast {
+  background: rgba(220, 53, 69, 0.9) !important;
+  color: white !important;
+}
+
+.error-toast .toast-body {
+  color: white !important;
+}
+
+/* Subtle Success Background */
+.custom-toast.bg-transparent-success {
+  background: rgba(40, 167, 69, 0.2) !important;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Fade Out Animation */
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.fade-out {
+  animation: fadeOut 0.5s ease-in;
+}
