@@ -25,7 +25,7 @@ export default function Billing() {
             <div className="row">
                 <div className="col-12">
                     <div className="card shadow-sm" style={{ borderRadius: "1rem" }}>
-                            <div className=" row">
+                        <div className="row my-2 my-md-2">
                                 {/* First Column */}
                                 <div className="col-md-6">
                                     <div className="form-group d-flex align-items-start mb-2">
